@@ -7,7 +7,7 @@
 //}
 ////////////////////////////////////////////////
 //else{
-  $conn = mysql_connect("localhost","root","K1a6");//MySQLサーバへ接続
+  $conn = mysql_connect("localhost","root","");//MySQLサーバへ接続
   mysql_select_db("p07timer", $conn);    // 使用するデータベースを指定
 //}
 mysql_query('set names utf8', $conn); //文字コードをutf8に設定（文字化け対策）
